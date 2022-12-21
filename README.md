@@ -33,4 +33,4 @@ Reconfigurable intelligent surface (RIS) has been envisioned as one of the promi
 
 ### How to use this code?
 
-Please run "Figure_4.m" to obtain the Figure 4 of the paper. By modifying the parameters, other figures can be obtained easily.
+Please run "Figure_3.m" to obtain the Figure 3 of the paper. By modifying the parameters, other figures can be obtained easily.
