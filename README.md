@@ -29,7 +29,7 @@ Reconfigurable intelligent surface (RIS) has been envisioned as one of the promi
 
 ### Result 
 
-![image](https://github.com/ken0225/Multi-RIS-Doppler-Mitigation-Hardware-Impairments/blob/main/plot_result.png)
+![image](https://github.com/ken0225/RIS-Distance-Dependent-Rician-Channels/blob/main/Figure_3.png)
 
 ### How to use this code?
 
