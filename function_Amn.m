@@ -43,19 +43,17 @@ end
 
 for t = 1 : T_total_time
     
-    A_RIS_MR = ...
-        lambda_c/(4*pi) * sqrt(G_MR_to_RIS(t,:)...
-        .*G_RIS_to_MR(t,:)) ./ vecnorm((D_MR_Trajectory(t,:)-centers_RIS).');
+    temp_A_RIS_MR = ...
+        lambda_c/(4*pi) * sqrt(G_MR_to_RIS(t,:) .* G_RIS_to_MR(t,:)) ./ vecnorm((D_MR_Trajectory(t,:)-centers_RIS).');
     
-    temp_A_mn_sum = sum(A_BS_RIS .* A_RIS_MR);
+    temp_A_mn_sum = sum(A_BS_RIS .* temp_A_RIS_MR);
     
     A_mn_sum = [A_mn_sum; temp_A_mn_sum];
     
-    temp_A_mn_matrix = A_BS_RIS .* A_RIS_MR;
+    temp_A_mn_matrix = A_BS_RIS .* temp_A_RIS_MR;
     
     A_mn_matrix = [A_mn_matrix; temp_A_mn_matrix];
     
 end
-
 
 end
