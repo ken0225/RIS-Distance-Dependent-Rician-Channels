@@ -27,10 +27,6 @@ This is a code package is related to the follow scientific article:
 
 Reconfigurable intelligent surface (RIS) has been envisioned as one of the promising solutions for enhancing signal transmissions in high-speed communications (HSC). In this paper, we present a time-varying channel model with distance-dependent Rician factors for the RIS-assisted HSC. Our model not only contains Rayleigh components and Doppler shift (DS) terms but also distance-dependent Rician factors, for characterizing time-varying features. In particular, we show that when the vehicle is far from the base station and the RIS, the channel contains only Rayleigh fading. However, when they are close enough, the channel can be considered as a light-of-sight channel. Based on the proposed model, it is proven that using RIS phase shift optimization, the DS of the cascaded links can be aligned with the DS of the direct link; and if the direct link is blocked, the DS can be removed entirely. Furthermore, we derive the closed-form expressions for the ergodic spectral efficiency and the outage probability of the proposed system. Besides, it is observed that the deployment strategy also affects the system performance. Simulation results validate all analyses.
 
-### Result 
-
-![image](https://github.com/ken0225/RIS-Distance-Dependent-Rician-Channels/blob/main/Figure_3.png)
-
 ### How to use this code?
 
 Please run "Figure_3.m" to obtain the Figure 3 of the paper. By modifying the parameters, other figures can be obtained easily.
